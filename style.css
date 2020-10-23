@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "neon";
+    src: URL("neon.TTF") format('truetype');
+}
+body {
+    background: #112 url("images/background-text.jpg") center no-repeat;
+    background-size: cover;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: fixed;
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+    0 0 12px -1px rgb(0, 180, 230) inset;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.main-text {
+    font: 400 16vh "neon";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #001eff, 0 0 0.5em #001eff, 0 0 0.1em #001eff, 0 10px 3px #000;
+}
+
+.main-text span {
+    animation: blink linear infinite 2s;
+}
+.main-text span:nth-of-type(2) {
+    animation: blink linear infinite 3s;
+}
+
+/** Navigation bar **/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.logo {
+  float: left;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu-nav {
+  margin: 5px;
+  font-family: 'Poiret One', Cursive;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+li a:hover {
+  animation: letter-flicker 2s linear infinite;
+}
+li a {
+  color: rgb(230, 0, 120);
+  text-shadow: 0 0 15px rgb(230, 0, 120);
+}
+
+.logo {
+  displaY: none;
+}
+#active {
+
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+    0 0 12px -1px rgb(0, 180, 230) inset;
+    border-radius: 8px;
+}
+.section-1 {
+  height: 930px;
+}
+

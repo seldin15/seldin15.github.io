@@ -1,0 +1,89 @@
+@keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79%{
+       color: #333;
+    }
+    80% {
+      
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+  @keyframes letter-flicker {
+    2% { 
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+      }
+      3% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+      }
+      6% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+      }
+      9% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+      }
+      11% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+      }
+      14% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+      }
+      18% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+      }
+      32% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+      }
+      33% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+      }
+      37% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+      }
+      39% {
+        color: rgba(120, 0, 50, .5);
+        text-shadow: none;
+      }
+      40% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+      }
+      100% {
+        color: rgb(230, 0, 120);
+        text-shadow: 0 0 15px rgb(230, 0, 120);
+      }
+    }
+    
+  /** 
